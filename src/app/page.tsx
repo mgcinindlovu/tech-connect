@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import SplashScreen from './components/SplashScreen'; // Adjust the import path
-import OnboardingPage from '@/app/pages/onboarding/onboarding'; // Update the import path to reflect the new structure
+import OnboardingPage from '@/app/pages/onboarding'; // Update the import path to reflect the new structure
 
 const HomePage: React.FC = () => {
   const [showSplash, setShowSplash] = useState(true);
